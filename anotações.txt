@@ -1,0 +1,7 @@
+npm init react-app [nome_projeto] (ENTER)
+
+*Entrar na pasta do prjeto
+
+*Deixar apenas App.js e index.js
+
+*Public dixar apenas favicon.ico e index.html
