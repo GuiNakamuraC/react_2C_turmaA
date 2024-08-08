@@ -9,7 +9,7 @@ function App() {
       <Header/>
       <Banner/>
       <Container>
-        <h1>ETEC MCM NOVOOOOOOOO</h1>
+        <h1>ETEC MCM</h1>
         <p>Olá Mundo!</p>
       </Container>      
       <Footer/>
