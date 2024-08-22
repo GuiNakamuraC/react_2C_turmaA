@@ -1,14 +1,13 @@
 import styles from "./Card.module.css"
 
-function Card(){
+function Card({id}){
     return(
         <section className={styles.card}>
             <a 
-                href="https://www.youtube.com/watch?v=B_nq7VTJZds" 
+                href={`https://www.youtube.com/watch?v=${id}`}
                 rel="noreferrer noopener"
-                target="_blank"
-            >
-                <img src="https://img.youtube.com/vi/B_nq7VTJZds/mqdefault.jpg" alt="Capa" />
+                target="_blank">
+                <img src={`https://img.youtube.com/vi/${id}/mqdefault.jpg`} alt="Capa" />
             </a>
 
         </section>

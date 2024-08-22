@@ -10,13 +10,13 @@ function App() {
       <Header/>
       <Banner image="favoritos" />
       <Container>
-        <h2>GEOGRAFIA</h2>
+        <h2>Music Videos</h2>
         <section className="cards">
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+          <Card id="ynOtYmpZxak"/>
+          <Card id="olDWm2veCrM"/>
+          <Card id="GsV1i0QHi-o"/>
+          <Card id="2wA_b6YHjqQ"/>
+          <Card id="eJCHKjt0MPw"/>
         </section>
       </Container>      
       <Footer/>
