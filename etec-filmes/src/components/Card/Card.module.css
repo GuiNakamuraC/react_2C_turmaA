@@ -1,8 +1,17 @@
 .card{
     display: flex;
+
 }
 
-.card img {
+.card img{
     width: 225px;
     border-radius: 8px;
+    transition: transform 500ms ease;
+    transition-delay: 100ms;
+}
+
+.card img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #222;
+    border-radius: 10px;
 }
